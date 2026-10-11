@@ -1,0 +1,15 @@
+[project]
+name = "music-muse"
+version = "0.1.0"
+description = "把完整的歌曲分轨，并为每个声部生成五线谱"
+requires-python = ">=3.10,<3.12"
+
+[project.scripts]
+music-muse = "music_muse.cli:app"
+
+[tool.setuptools]
+packages = ["music_muse"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::UserWarning", "ignore::DeprecationWarning"]

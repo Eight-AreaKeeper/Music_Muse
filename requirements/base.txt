@@ -1,0 +1,16 @@
+numpy<2
+demucs==4.1.0
+beat-this==1.1.0
+piano_transcription_inference==0.0.6
+music21>=9.1
+pretty_midi>=0.2.10
+librosa>=0.10
+mir-eval>=0.6
+resampy>=0.2.2,<0.4.3
+scikit-learn
+scipy
+onnxruntime
+soundfile
+gradio>=5
+typer
+setuptools<81
